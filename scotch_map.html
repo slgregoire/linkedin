@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["map"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([['FinalLat', 'FinalLong', 'Distillery'],
+ [-707921.215264146, 7512462.62563701, 'Bruichladdich'],
+ [-343449.725089556, 8059233.44984482, 'OldPulteney'],
+ [-333448.76055872, 8172549.81193516, 'Scapa'],
+ [-699510.108671344, 7509999.51893283, 'Bowmore'],
+ [-275998.014835159, 7728834.71290504, 'OldFettercairn'],
+ [-471896.71613216295, 7902176.4521876, 'Dalmore'],
+ [-434728.274252889, 7870804.6647323, 'RoyalBrackla'],
+ [-354811.712684317, 7860711.44567363, 'Craigallechie'],
+ [-328639.12414639303, 8173259.94234912, 'Highland Park'],
+ [-681682.358419799, 7535055.22037738, 'Bunnahabhain']]);
+
+        var options = {
+          showTip: true, 
+          mapType: 'normal'
+        }
+        
+        var map = new google.visualization.Map(document.getElementById('map_div'));
+        map.draw(data, options);
+      }
+
+    </script>
+  </head>
+
+  <body>
+    <div id="map_div" style="width: 400px; height: 300px"></div>
+  </body>
+</html>
