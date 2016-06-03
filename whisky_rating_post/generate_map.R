@@ -1,7 +1,7 @@
 library(ggmap)
 library(reshape2)
 
-top_scotches = read.csv('top_scotches.csv')
+top_scotches = read.csv('top_scotches_map.csv')
 
 adjLong = top_scotches$FinalLong
 adjLong = adjLong + .3
