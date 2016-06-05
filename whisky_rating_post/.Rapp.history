@@ -1,0 +1,6 @@
+install.packages('maptools')
+library(maptools)
+install.packages("maptools", "anaconda/lib/R/library")
+save.image()
+source("/Users/scott/Desktop/linkedin/whisky_rating_post/generate_map.R")
+y
