@@ -1,26 +1,26 @@
 Distillery,ComplexityThenBalanceRank,BalanceThenComplexityRank,Complexity,Balance,Category
-Bruichladdich,1,1,11,2.36828145754,Best in Both
-OldPulteney,2,2,11,2.22485954613,Best in Both
-Scapa,3,3,11,2.22485954613,Best in Both
-Bowmore,4,7,11,1.88034951158,Best in Both
-OldFettercairn,5,8,11,1.88034951158,Best in Both
-Dalmore,6,9,11,1.8776690405,Best in Both
-RoyalBrackla,7,10,11,1.8776690405,Best in Both
-Craigallechie,8,11,11,1.81289419599,Best in One
-Highland Park,9,13,11,1.78655172561,Best in One
-Bunnahabhain,10,19,11,1.71269767716,Best in One
-Aberfeldy,11,4,10,1.99673428156,Best in One
-Benromach,12,5,10,1.99673428156,Best in One
-BlairAthol,13,6,10,1.99673428156,Best in One
+Bruichladdich,1,1,11,2.36828145754,Best in Both Sorting Orders
+OldPulteney,2,2,11,2.22485954613,Best in Both Sorting Orders
+Scapa,3,3,11,2.22485954613,Best in Both Sorting Orders
+Bowmore,4,7,11,1.88034951158,Best in Both Sorting Orders
+OldFettercairn,5,8,11,1.88034951158,Best in Both Sorting Orders
+Dalmore,6,9,11,1.8776690405,Best in Both Sorting Orders
+RoyalBrackla,7,10,11,1.8776690405,Best in Both Sorting Orders
+Craigallechie,8,11,11,1.81289419599,Best in One Sorting Order
+Highland Park,9,13,11,1.78655172561,Best in One Sorting Order
+Bunnahabhain,10,19,11,1.71269767716,Best in One Sorting Order
+Aberfeldy,11,4,10,1.99673428156,Best in One Sorting Order
+Benromach,12,5,10,1.99673428156,Best in One Sorting Order
+BlairAthol,13,6,10,1.99673428156,Best in One Sorting Order
 RoyalLochnagar,14,12,10,1.81289419599,
 Springbank,15,14,10,1.78655172561,
 Mortlach,16,15,10,1.78018190617,
 Strathisla,17,16,10,1.78018190617,
 Glenturret,18,17,10,1.75860146927,
 GlenScotia,19,18,10,1.71269767716,
-Glenmorangie,20,20,10,1.71269767716,Popular
+Glenmorangie,20,20,10,1.71269767716,Well-known
 Aberlour,21,21,10,1.709665457,
-Glenlivet,22,22,10,1.69250800097,Popular
+Glenlivet,22,22,10,1.69250800097,Well-known
 Auchroisk,23,23,10,1.65831239518,
 Benrinnes,24,24,10,1.65831239518,
 Knochando,25,25,10,1.65831239518,
@@ -40,7 +40,7 @@ GlenDeveronMacduff,38,39,10,1.44337567297,
 Longmorn,39,42,10,1.44337567297,
 GlenElgin,40,43,10,1.42206351161,
 ArranIsleOf,41,45,10,1.39746146663,
-Macallan,42,48,10,1.38994205312,Popular
+Macallan,42,48,10,1.38994205312,Well-known
 GlenMoray,43,49,10,1.37979931651,
 Caol Ila,44,62,10,1.28452325787,
 Lagavulin,45,76,10,1.11298640546,
@@ -80,8 +80,8 @@ GlenSpey,78,79,8,1.04880884817,
 Speyburn,79,80,8,1.02844168901,
 Miltonduff,80,82,8,0.977585678529,
 Ardbeg,81,84,8,0.976550222065,
-Laphroig,82,85,8,0.923822643077,Popular
+Laphroig,82,85,8,0.923822643077,Well-known
 Teaninich,83,78,7,1.08746033241,
 Tormore,84,81,7,0.998186761881,
 Auchentoshan,85,83,7,0.977585678529,
-Glenfiddich,86,86,6,0.845926354862,Popular
+Glenfiddich,86,86,6,0.845926354862,Well-known
